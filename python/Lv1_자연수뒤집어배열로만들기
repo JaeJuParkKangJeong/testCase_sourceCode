@@ -1,0 +1,7 @@
+n = input()
+def solution(n):
+    arr = list(str(n))
+    arr.reverse()
+
+    return list(map(int, arr))
+print(" ".join(str(i) for i in solution(n)))
