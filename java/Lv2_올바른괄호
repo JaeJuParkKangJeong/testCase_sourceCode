@@ -13,7 +13,7 @@ public class Main {
             }
         }
         if (stack.isEmpty()) return true;
-        return answer;
+        return true;
     }
     public static void main(String[] args) {
         Main m = new Main();
